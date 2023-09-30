@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+
+<!--Início CSS-->
+<style>
+    /*Header - Menu*/
+
+    .navbar {
+        padding: 20px;
+        background-color: white;
+    }
+
+    .navbar-brand {
+        font-size: 25px;
+        color: rgba(11, 28, 95, 0.866);
+    }
+
+    .nav-link {
+        justify-content: space-evenly;
+    }
+
+    .nav-bar-nav {
+        margin: 5px 5px;
+    }
+
+    .navbar-nav a:hover {
+        background-color: rgba(94, 94, 89, 0.034);
+    }
+
+    .titulo-banner {
+        text-align: center;
+        color: rgba(11, 28, 95, 0.866);
+        padding-top: 80px;
+    }
+
+    /*INÍCIO CARDS*/
+
+    .card {
+        margin: 25px;
+        border: none;
+    }
+
+    .card-body a {
+        text-decoration: none;
+        color: rgba(11, 28, 95, 0.866);
+    }
+
+    .row {
+        text-align: center;
+        align-items: center;
+        padding-top: 50px;
+        justify-content: space-around;
+    }
+
+    .list-group {
+
+        font-size: 17px;
+        padding-top: 20px;
+
+    }
+
+    .list-group-item {
+        background-color: rgba(11, 28, 95, 0.638);
+        color: white;
+    }
+
+    .viagens {
+        display: grid;
+        grid-template-rows: auto;
+
+    }
+
+    .card-text {
+        font-size: 20px;
+        background-color: rgba(214, 221, 249, 0.866);
+    }
+
+    /*FOOTER*/
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: space-between;
+    text-align: center;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(11, 28, 95, 0.866);
+    margin-top: 150px;
+    padding: 50px;
+    text-decoration: none;
+  }
+
+  .grid-container>div {
+    font-size: 20px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-decoration: underline;
+  }
+</style>
+
+<!--Início HTML-->
+
+<body>
+    <nav class="navbar navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">TALENT ROUTE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="sobrenos.html">QUEM SOMOS NÓS</a>
+                    <a class="nav-link active" href="promocao.html">PROMOÇÕES</a>
+                    <a class="nav-link active" href="destino.html">DESTINOS</a>
+                    <a class="nav-link active" href="blog2.html">BLOG</a>
+                    <a class="nav-link active" href="contato2.html">CONTATO</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER - BANNER-->
+
+    <header>
+        <div class="containerimg">
+            <div class="row">
+                <div class="column-12">
+                    <img src="img/mapa.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+        <h2 class="titulo-banner">TRAVEL TIPS</h2>
+    </header>
+
+    <!--INÍCIO MAIN - CARDS-->
+
+    <main>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="img/map.jpg" class="card-img-top" alt="..." width="350px">
+                    <div class="card-body">
+                        <a href="#">
+                            <p class="card-text">6 Reasons Why You Should Go on a Multi Destination Trip</p>
+                        </a>
+                        <div class="list-group">
+                            <p>There can be so many things to think about when planning a trip and every...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="img/italy.jpg" class="card-img-top" alt="..." width="350px">
+                    <div class="card-body">
+                        <a href="#">
+                            <p class="card-text">Travel Photography and Videography: Ideas of Things to Do When Stuck at
+                                Home</p>
+                        </a>
+                        <div class="list-group">
+                            <p>More professional programs with extensive features include Final Cut Pro...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="img/hotel.jpg" class="card-img-top" alt="..." width="350px">
+                    <div class="card-body">
+                        <a href="#">
+                            <p class="card-text">What are the Different Accommodation Types Available for your Travels?</p>
+                        </a>
+                        <div class="list-group">
+                            <p>From tips for planning, health and fitness, money and budgeting, safety, blogging,
+                                photography...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="titulo-banner">HOW TO PLAN YOUR TRIP</h2>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="img/airplane.jpg" class="card-img-top" alt="..." width="350px">
+                        <div class="card-body">
+                            <a href="#">
+                                <p class="card-text">Best Jobs That Help You Travel And See More Of The World</p>
+                            </a>
+                            <p class="card-text"></p>
+                            <div class="list-group">
+                                <p>Working as a tour guide, which may be for expeditions, multi destinations trips...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="img/europe.jpg" class="card-img-top" alt="..." width="350px">
+                        <div class="card-body">
+                            <a href="#">
+                                <p class="card-text">How to Visit Europe on a Low Budget - Cheap Travel Tips</p>
+                            </a>
+                            <div class="list-group">
+                                <p>Working as a tour guide, which may be for expeditions, multi destinations trips...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="img/trip.jpg" class="card-img-top" alt="..." width="350px">
+                        <div class="card-body">
+                            <a href="#">
+                                <p class="card-text">Important Things to Do Before You Travel (With a Downloadable
+                                    Checklist)</p>
+                            </a>
+                            <div class="list-group">
+                                <p>Being a bit more organised and checking various things before you travel can
+                                    ensure...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="titulo-banner">BUDGET TRAVEL</h2>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="img/cam.jpg" class="card-img-top" alt="..." width="350px">
+                        <div class="card-body">
+                            <a href="#">
+                                <p class="card-text">How to Protect Your Gear When Travelling With an Expensive Camera
+                                </p>
+                            </a>
+                            <div class="list-group">
+                                <p>There can be so many things to think about when planning a trip and every...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="img/eco.jpg" class="card-img-top" alt="..." width="350px">
+                        <div class="card-body">
+                            <a href="#">
+                                <p class="card-text">5 Simple Swaps to Travel More Sustainably and Be More Eco-friendly
+                                </p>
+                            </a>
+                            <div class="list-group">
+                                <p>You may be going on your first group trip with friends but have no idea...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="img/snow.jpg" class="card-img-top" alt="..." width="350px">
+                        <div class="card-body">
+                            <a href="#">
+                                <p class="card-text">20 Tips for Keeping You and Your Possessions Safe Whilst Travelling
+                                </p>
+                            </a>
+                            <div class="list-group">
+                                <p>Staying safe is important wherever you are, but when you are travelling you may be...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </main>
+
+    <!--FOOTER-->
+
+    <div class="grid-container">
+        <a href="#" style="text-decoration:none">
+            <div class="grid-item1">Contact Us</div>
+        </a>
+        <a href="#" style="text-decoration:none">
+            <div class="grid-item2">Terms</div>
+        </a>
+        <a href="#" style="text-decoration:none">
+            <div class="grid-item3">Other Services</div>
+        </a>
+        <a href="#" style="text-decoration:none">
+            <div class="grid-item4">Suport</div>
+        </a>
+        <a href="#" style="text-decoration:none">
+            <div class="grid-item5">Privacy</div>
+        </a>
+        <a href="#" style="text-decoration:none">
+            <div class="grid-item6">Payment</div>
+        </a>
+        <a href="#" style="text-decoration:none">
+            <div class="grid-item7">Feedback</div>
+        </a>
+        <a href="#" style="text-decoration:none">
+            <div class="grid-item8">Conditions</div>
+        </a>
+        <a href="#" style="text-decoration:none">
+            <div class="grid-item9">Our Group</div>
+        </a>
+    </div>
+    <footer>
+        <p>Copyright©2022 TOURISM NOTES </p>
+        <p>All rights reserved</p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</html>

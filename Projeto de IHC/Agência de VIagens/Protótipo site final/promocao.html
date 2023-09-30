@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROMOÇÕES</title>
+</head>
+
+<!--INÍCIO CSS-->
+<style>
+/*Header - Menu*/
+
+    .navbar {
+        padding: 20px;
+        background-color: white;
+        border-bottom: 2px solid rgba(11, 28, 95, 0.866);
+    }
+
+    .navbar-brand {
+        font-size: 25px;
+        color: rgba(11, 28, 95, 0.866);
+    }
+
+    .nav-link {
+        justify-content: space-evenly;
+    }
+
+    .nav-bar-nav {
+        margin: 5px 5px;
+    }
+
+    .navbar-nav {
+        font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .navbar-nav a:hover {
+        background-color: rgba(94, 94, 89, 0.034);
+    }
+
+    /*INÍCIO PROMOÇÕES*/
+
+    .card {
+        margin: 25px;
+    }
+
+    .promo {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .row {
+        text-align: center;
+        align-items: center;
+        padding-top: 50px;
+        justify-content: space-around;
+    }
+
+    .list-group {
+
+        font-size: 17px;
+        background-color: rgba(91, 121, 239, 0.997);
+    }
+
+    .list-group-item {
+        background-color: rgba(11, 28, 95, 0.866);
+        color: white;
+    }
+
+    .viagens {
+        display: grid;
+        grid-template-rows: auto;
+        
+    }
+
+    /*FOOTER*/
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-content: space-between;
+        text-align: center;
+        font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        color: rgba(11, 28, 95, 0.866);
+        margin-top: 250px;
+        padding: 70px;
+        text-decoration: none;
+    }
+
+    .grid-container>div {
+        font-size: 20px;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 13px;
+        font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        text-decoration: underline;
+    }
+    </style>
+
+<!--Início HTML-->
+<body>
+    <nav class="navbar navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">TALENT ROUTE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="sobrenos.html">QUEM SOMOS NÓS</a>
+                    <a class="nav-link active" href="promocao.html">PROMOÇÕES</a>
+                    <a class="nav-link active" href="destino.html">DESTINOS</a>
+                    <a class="nav-link active" href="blog2.html">BLOG</a>
+                    <a class="nav-link active" href="contato2.html">CONTATO</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER - BANNER-->
+
+    <header>
+        <div class="containerimg">
+            <div class="row">
+                <div class="column-12">
+                    <img src="img/banner4PAINT2.png" width="100%">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--INÍCIO MAIN - PROMOÇÕES-->
+
+    <main>
+    <h1 class="promo">BEST TRAVEL PACKAGES</h1>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="img/sydney2.jpg" class="card-img-top" alt="..." width="350px">
+                <div class="card-body">
+                    <p class="card-text">Sydney, Australia</p>
+                    <!--Button-->
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="img/amazon.jpg" class="card-img-top" alt="..." width="350px">
+                <div class="card-body">
+                    <p class="card-text">Amazon Rainforest, Brazil</p>
+                    <!--Button-->
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                <img src="img/bergen.jpg" class="card-img-top" alt="..." width="350px">
+                <div class="card-body">
+                    <p class="card-text">Bergen, Norway</p>
+                    <!--Button-->
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="img/thailand3.jpg" class="card-img-top" alt="..." width="350px">
+                    <div class="card-body">
+                        <p class="card-text">Bangkok, Thailand</p>
+                        <!--Button-->
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="img/mozambique.png" class="card-img-top" alt="..." width="350px">
+                    <div class="card-body">
+                        <p class="card-text">Bazaruto, Mozambique</p>
+                        <!--Button-->
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="img/jericoacoara.png" class="card-img-top" alt="..." width="350px">
+                    <div class="card-body">
+                        <p class="card-text">Jericoacoara, Brazil</p>
+                        <!--Button-->
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+        <!--FOOTER-->
+
+        <div class="grid-container">
+            <a href="#" style="text-decoration:none">
+              <div class="grid-item1">Contact Us</div>
+            </a>
+            <a href="#" style="text-decoration:none">
+              <div class="grid-item2">Terms</div>
+            </a>
+            <a href="#" style="text-decoration:none">
+              <div class="grid-item3">Other Services</div>
+            </a>
+            <a href="#" style="text-decoration:none">
+              <div class="grid-item4">Suport</div>
+            </a>
+            <a href="#" style="text-decoration:none">
+              <div class="grid-item5">Privacy</div>
+            </a>
+            <a href="#" style="text-decoration:none">
+              <div class="grid-item6">Payment</div>
+            </a>
+            <a href="#" style="text-decoration:none">
+              <div class="grid-item7">Feedback</div>
+            </a>
+            <a href="#" style="text-decoration:none">
+              <div class="grid-item8">Conditions</div>
+            </a>
+            <a href="#" style="text-decoration:none">
+              <div class="grid-item9">Our Group</div>
+            </a>
+          </div>
+        <footer>
+            <p>Copyright©2022 TOURISM NOTES </p>
+            <p>All rights reserved</p>
+        </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</html>

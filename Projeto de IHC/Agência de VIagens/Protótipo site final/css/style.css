@@ -1,0 +1,209 @@
+.navbar {
+    padding: 20px;
+    background-color: white;
+   
+    
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color:  rgba(11, 28, 95, 0.866);
+    
+}
+
+.nav-link {
+    justify-content: space-evenly;
+}
+
+.nav-bar-nav {
+    margin: 5px 5px;
+}
+
+.navbar-nav {
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.navbar-nav a:hover {
+    background-color: rgba(94, 94, 89, 0.034);
+
+}
+
+/************INÍCIO QUEM SOMOS NÓS************/
+
+.quem{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:  rgba(11, 28, 95, 0.866);
+    border-top: 120px solid white;
+    border-bottom: 120px solid white;
+    
+}
+
+.title{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 50px;
+    color: rgba(11, 28, 95, 0.866);
+    
+
+}
+
+.word{
+    margin: 10%;
+    text-indent: 3em;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+
+
+     /*****************FOOTER*************/
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: space-between;
+    text-align: center;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(11, 28, 95, 0.866);
+    margin-top: 250px;
+    padding: 70px;
+    padding-left: 5%;
+    
+    text-decoration: none;
+}
+
+
+.grid-container>div {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-decoration: underline;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gridimg{
+    background-color: rgba(211, 214, 221, 0.638);
+    border: solid 1px 2px;
+    
+}
+
+/*img {
+    width: 600px;
+    height: 450px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px 60px;
+}*/
+img:hover {
+    opacity: 1;
+    background-color: rgb(243, 243, 243);
+}
+
+.card-img-top{
+    width: 450px;
+    height: 350px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    /*padding: 80px 60px;*/
+    
+}
+
+.card{
+    border: 0;
+    padding-left: 30px
+}
+
+
+
+.viagens p {
+    font-size: 45px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(11, 28, 95, 0.866);
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    padding: 40px;
+    text-decoration: none;
+}
+
+
+.card-body p {
+    font-size: 35px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    color: rgba(11, 28, 95, 0.866);
+    text-decoration: none;
+}
+
+
+.card h5 {
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(11, 28, 95, 0.866);
+}
+
+
+
+.btn{
+    background-color: rgba(11, 28, 95, 0.866);
+      color: white;
+}
+
+
+/*.col{
+    padding-top: 15px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(11, 28, 95, 0.866);
+}*/
+
+.viagens {
+    align-items: center;
+    text-align: center;
+    padding: 100px 300px;
+}
