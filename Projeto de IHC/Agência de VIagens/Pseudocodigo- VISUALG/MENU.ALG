@@ -11,12 +11,12 @@ Var
 Inicio
 
 escreva("")
-escreval("               BEM VINDO A TALENT ROUT!!!")
-escreval("             ¡rea - Login de colabradores")
+escreval("               BEM VINDO AO VIAJA GO !!!")
+escreval("             √Årea - Login de colabradores")
 escreval("      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 
-//Login funcion·rio:
+//Login funcion√°rio:
 
 para i de 1 ate 1 faca
 escreva("Informe o seu login: ")
@@ -28,7 +28,7 @@ leia(confSenha)
 fimpara
 
 
-//ValidaÁ„o de senha - Login funcion·rio:
+//Valida√ß√£o de senha - Login funcion√°rio:
 
 se (senha = confSenha) entao
 escreval("Acesso permitido!")
@@ -45,14 +45,14 @@ fimse
 fimse
 
 
-//InÌcio opÁıes:
+//In√≠cio op√ß√µes:
 
 escreval("Para cadastrar um cliente, digite 1. ")
 escreval("Para cadastrar um dentino, digite 2. ")
 leia(opcao)
 
 
-//InÌcio cadastro de clientes:
+//In√≠cio cadastro de clientes:
 
 se opcao = 1 entao
 
@@ -62,7 +62,7 @@ escreval("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 
 para i de 1 ate 2 faca
-escreval("Informe o nome completo do ", i ,"∫ cliente: ")
+escreval("Informe o nome completo do ", i ,"¬∫ cliente: ")
 leia(cliente[i])
 escreval("Informe o e-mail: ")
 leia(email[i])
@@ -72,7 +72,7 @@ escreval("Dados cadastrados com sucesso!")
 escreval("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 
-//OpÁ„o de consulta de dados cadastrados:
+//Op√ß√£o de consulta de dados cadastrados:
 
 escreval("Deseja acessar os dados cadastrados?")
 leia(confirmacao)
@@ -80,18 +80,18 @@ se confirmacao = "sim" entao
 
 escreval("----------DADOS DOS CLIENTES CADASTRADOS----------")
 para i de 1 ate 2 faca
-escreval("O nome completo do", i ,"∫ cliente È: ",cliente[i])
+escreval("O nome completo do", i ,"¬∫ cliente √©: ",cliente[i])
 escreval("E-mail cadastrado: ",email[i],".")
 escreval("------------------------")
 fimpara
-escreval("Obrigada! AtÈ a prÛxima!")
+escreval("Obrigada! At√© a pr√≥xima!")
 
 senao
-escreval("Obrigada! AtÈ a prÛxima!")
+escreval("Obrigada! At√© a pr√≥xima!")
 fimse
 
 
-//InÌcio cadastro de destinos:
+//In√≠cio cadastro de destinos:
 
 senao
 se opcao = 2 entao
@@ -100,9 +100,9 @@ escreval("                    CADASTRO DE DESTINO")
 escreval("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 para i de 1 ate 2 faca
-escreval("Informe o nome completo do ", i ,"∫ cliente: ")
+escreval("Informe o nome completo do ", i ,"¬∫ cliente: ")
 leia(nome[i])
-escreval("Informe o paÌs escolhido: ")
+escreval("Informe o pa√≠s escolhido: ")
 leia(pais[i])
 escreval("Informe a cidade escolhida: ")
 leia(cidade[i])
@@ -111,7 +111,7 @@ escreval("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 fimpara
 
 
-//OpÁ„o de consulta de destinos cadastrados:
+//Op√ß√£o de consulta de destinos cadastrados:
 
 escreval("Deseja acessar os destinos cadastrados?")
 leia (confirmacao)
@@ -122,17 +122,17 @@ escreval("~~~~~~~~~~~~~~~~~~~~~~~~")
 
 
 para i de 1 ate 2 faca
-escreval("O nome completo do", i ,"∫ cliente È: ",nome[i])
-escreval("O paÌs escolhido foi: ",pais[i],".")
+escreval("O nome completo do", i ,"¬∫ cliente √©: ",nome[i])
+escreval("O pa√≠s escolhido foi: ",pais[i],".")
 escreval("A cidade escolhida foi: ",cidade[i])
 escreval("~~~~~~~~~~~~~~~~~~~~~~~~")
 fimpara
 
-escreval("Obrigada! AtÈ a prÛxima!")
+escreval("Obrigada! At√© a pr√≥xima!")
 
 senao
 escreval("~~~~~~~~~~~~~~~~~~~~~~~~")
-escreva("Obrigada! AtÈ a prÛxima!")
+escreva("Obrigada! At√© a pr√≥xima!")
 
 fimse
 fimse
